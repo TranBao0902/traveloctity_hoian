@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
     padding: 0 50px;
     height: 70px;
-    background: linear-gradient(rgba(0,0,0,0.5)100%, rgba(0,0,0,0.5)0%), url(3.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5)100%, rgba(0,0,0,0.5)0%), url(../trang_chu_travel/3.jpg);
 }
 .logo {
     flex: 0.5;
@@ -47,6 +47,19 @@ header {
 }
 .menu>li>a {
     padding: 25px 15px;
+}
+.form-login {
+    padding-top: 23px;
+    padding-left: 65px;
+}
+.form-login button {
+    background: #54a0ff;
+    border: 1px solid #54a0ff;
+    color: #fff;
+    width: 100%;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: 0.25s ease-in-out;
 }
 .sub-menu {
     display: none;
@@ -85,7 +98,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 0 50px;
-    background: linear-gradient(rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(3.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../trang_chu_travel/3.jpg);
 }
 .footer-menu {
     flex: 3;
@@ -125,7 +138,4 @@ footer {
     background: #fff;
     justify-content: space-around;
     flex-direction: column;
-}
-.icon {
-    background: #cccccc;
 }
