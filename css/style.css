@@ -128,7 +128,6 @@ footer {
 .category-list {
     display: grid;
     grid-template-columns: auto auto auto;
-    background: rosybrown;
     gap: 10px;
     padding: 10px;
 }
